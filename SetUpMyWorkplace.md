@@ -13,20 +13,29 @@ Install gsudo
 `choco install gsudo`
 
 Install apps
-`use choco to install all these apps
 
-choco install notepadplusplus
+    choco install notepadplusplus
+    choco install npppluginmanager
+    choco install adobereader
+    choco install 7zip
+    choco install git
+    choco install github-desktop
+    
 
-choco install npppluginmanager
+Install Oy-My-Posh
+
+    choco install oh-my-posh
+
+Install Terminal (in Windows 10 only)
+
+    choco install microsoft-windows-terminal
+
+Let's install VSCode with some extensions
+
+    choco install vscode
 
 
 
-
-apps finished`
-
-
-
-choco install vscode
 
 
 
