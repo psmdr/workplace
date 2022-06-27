@@ -16,5 +16,6 @@ if (!(test-path $env:USERPROFILE\documents\PowerShell))
 
 #create Profile
 
-copy-item $env:USERPROFILE\git\psmdr\workplace\PsProfile\DefaultProfile.ps1 -Destination $env:USERPROFILE\documents\WindowsPowerShell\Profile.ps1
-copy-item $env:USERPROFILE\git\psmdr\workplace\PsProfile\DefaultProfile.ps1 -Destination $env:USERPROFILE\documents\PowerShell\Profile.ps1
+copy-item $env:USERPROFILE\git\psmdr\workplace\PsProfile\DefaultProfile.ps1 -Destination $env:USERPROFILE\documents\WindowsPowerShell\Profile.ps1 -Force
+copy-item $env:USERPROFILE\git\psmdr\workplace\PsProfile\DefaultProfile.ps1 -Destination $env:USERPROFILE\documents\PowerShell\Profile.ps1 -Force
+
