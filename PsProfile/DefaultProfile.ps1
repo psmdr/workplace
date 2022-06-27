@@ -12,11 +12,12 @@ Function Check-MDInstalledModules
 
         )
 
+        #Check the list, then put out results. Ask if you want to install --> presnet a list (or all) and choose by number.
+
     }
 
 
 Function Load-Exchange 
-
 {
     $installed = 1
 
@@ -49,7 +50,7 @@ Function Load-Exchange
 Function Load-EXO
 {
 
-Connect-ExchangeOnline
+    Connect-ExchangeOnline
 
 
 }
@@ -74,3 +75,8 @@ Function CopyOneCommand
         write-host "copied!" -ForegroundColor green
 
     }
+
+
+#Let's load Oh-my-posh
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\MDR.omp.json"   
+
