@@ -2,7 +2,7 @@
 
 ## Setup Git
 
-    Let's create folders ...
+Let's create folders ...
 
     set-location $env:UserProfile
     new-item -name git -itemtype directory
