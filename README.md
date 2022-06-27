@@ -34,11 +34,6 @@ Let's install VSCode
 
     choco install vscode
 
-Let's create folders ...
-
-    set-location $env:UserProfile
-    new-item -name git -type folder
-
 Now do instructions to setup git, after that setup PSProfiles and after that configure oh-my-posh and vscode
 
 

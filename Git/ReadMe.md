@@ -7,7 +7,7 @@
     set-location $env:UserProfile
     new-item -name git -itemtype directory
 
-
+s
 
     git config --global user.name "Max Droege"
     git config --global user.email mail@mdroege.de
