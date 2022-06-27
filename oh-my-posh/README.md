@@ -17,7 +17,7 @@ If cloned you can run:
 
 After that add this line to your powershell profile.
 
-    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\MDR.omp.json"
+    oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\MDR.omp.json" | Invoke-Expression
 
 And fix the path ...
 

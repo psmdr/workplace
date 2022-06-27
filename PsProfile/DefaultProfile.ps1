@@ -78,5 +78,5 @@ Function CopyOneCommand
 
 
 #Let's load Oh-my-posh
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\MDR.omp.json"   
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\MDR.omp.json" | Invoke-Expression  
 

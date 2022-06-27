@@ -6,8 +6,8 @@ Let's create folders ...
 
     set-location $env:UserProfile
     new-item -name git -itemtype directory
-
-s
+    set-location git
+    new-item -name psmdr -itemtype directory
 
     git config --global user.name "Max Droege"
     git config --global user.email mail@mdroege.de
